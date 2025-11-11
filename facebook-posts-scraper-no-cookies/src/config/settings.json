@@ -1,0 +1,10 @@
+{
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+  "request_timeout": 15,
+  "max_retries": 3,
+  "sleep_between_requests": 1.0,
+  "input_file": "data/sample_input.txt",
+  "output_file": "data/output_sample.json",
+  "max_posts_per_page": 50,
+  "log_level": "INFO"
+}
