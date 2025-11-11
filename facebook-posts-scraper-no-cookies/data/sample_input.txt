@@ -1,0 +1,3 @@
+# One Facebook page URL per line (public pages only)
+https://www.facebook.com/nytimes/
+https://www.facebook.com/cnn/
